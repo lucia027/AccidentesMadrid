@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "C4D8pNZ4tYg=",
+  "dgSpecHash": "Fu/CeKAKJcQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\Lu\\Desktop\\Git-Repository\\AccidentesMadrid\\AcidentesMadrid\\AcidentesMadrid\\AcidentesMadrid.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Lu\\.nuget\\packages\\csvhelper\\33.1.0\\csvhelper.33.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
