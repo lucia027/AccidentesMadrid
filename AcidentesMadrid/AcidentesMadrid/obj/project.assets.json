@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net10.0": {
+      "Apache.Arrow/14.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Apache.Arrow.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Apache.Arrow.dll": {}
+        }
+      },
       "CsvHelper/33.1.0": {
         "type": "package",
         "compile": {
@@ -14,10 +23,73 @@
             "related": ".xml"
           }
         }
+      },
+      "Microsoft.Data.Analysis/0.23.0": {
+        "type": "package",
+        "dependencies": {
+          "Apache.Arrow": "14.0.2",
+          "Microsoft.ML.DataView": "5.0.0",
+          "System.Numerics.Tensors": "9.0.4"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Data.Analysis.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Data.Analysis.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.ML.DataView/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.DataView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.DataView.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Numerics.Tensors/9.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/System.Numerics.Tensors.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.Numerics.Tensors.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
       }
     }
   },
   "libraries": {
+    "Apache.Arrow/14.0.2": {
+      "sha512": "2xvo9q2ag/Ze7TKSMsZfcQFMk3zZKWcduttJXoYnoevZD2bv+lKnOPeleyxONuR1ZwhZ00D86pPM9TWx2GMY2w==",
+      "type": "package",
+      "path": "apache.arrow/14.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "apache.arrow.14.0.2.nupkg.sha512",
+        "apache.arrow.nuspec",
+        "lib/net6.0/Apache.Arrow.dll",
+        "lib/netcoreapp3.1/Apache.Arrow.dll",
+        "lib/netstandard1.3/Apache.Arrow.dll",
+        "lib/netstandard2.0/Apache.Arrow.dll"
+      ]
+    },
     "CsvHelper/33.1.0": {
       "sha512": "kqfTOZGrn7NarNeXgjh86JcpTHUoeQDMB8t9NVa/ZtlSYiV1rxfRnQ49WaJsob4AiGrbK0XDzpyKkBwai4F8eg==",
       "type": "package",
@@ -43,11 +115,76 @@
         "lib/netstandard2.1/CsvHelper.dll",
         "lib/netstandard2.1/CsvHelper.xml"
       ]
+    },
+    "Microsoft.Data.Analysis/0.23.0": {
+      "sha512": "LtIxK1INxHf0+QFruYWnrPYQXUZVFQfn+pxnXX6XuTIDoAKBryQo9uuiRddKNsyL3Tk5+9VVgY3MGRnHLL9f1Q==",
+      "type": "package",
+      "path": "microsoft.data.analysis/0.23.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "THIRD-PARTY-NOTICES.TXT",
+        "interactive-extensions/dotnet/Microsoft.Data.Analysis.Interactive.dll",
+        "interactive-extensions/dotnet/Microsoft.Data.Analysis.Interactive.xml",
+        "lib/net8.0/Microsoft.Data.Analysis.dll",
+        "lib/net8.0/Microsoft.Data.Analysis.xml",
+        "lib/netstandard2.0/Microsoft.Data.Analysis.dll",
+        "lib/netstandard2.0/Microsoft.Data.Analysis.xml",
+        "microsoft.data.analysis.0.23.0.nupkg.sha512",
+        "microsoft.data.analysis.nuspec",
+        "mlnetlogo.png"
+      ]
+    },
+    "Microsoft.ML.DataView/5.0.0": {
+      "sha512": "G8onJ9msBpLYea29WyG+NRV010rg75hJDUIEK3+sSDFAR0OV5p74QjZWnpNbyhT8OkAJdSNkif4l9/iCWZ2LOQ==",
+      "type": "package",
+      "path": "microsoft.ml.dataview/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard2.0/Microsoft.ML.DataView.dll",
+        "lib/netstandard2.0/Microsoft.ML.DataView.xml",
+        "microsoft.ml.dataview.5.0.0.nupkg.sha512",
+        "microsoft.ml.dataview.nuspec",
+        "mlnetlogo.png"
+      ]
+    },
+    "System.Numerics.Tensors/9.0.4": {
+      "sha512": "ynVvqELpMWGQJ1Y90rlAmuTiSQIkXD0W5AMj7pVpEjECmrcIJLexIBblgccerHFijayfcsl1KCbkk+Sg5cS9vQ==",
+      "type": "package",
+      "path": "system.numerics.tensors/9.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Numerics.Tensors.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Numerics.Tensors.targets",
+        "lib/net462/System.Numerics.Tensors.dll",
+        "lib/net462/System.Numerics.Tensors.xml",
+        "lib/net8.0/System.Numerics.Tensors.dll",
+        "lib/net8.0/System.Numerics.Tensors.xml",
+        "lib/net9.0/System.Numerics.Tensors.dll",
+        "lib/net9.0/System.Numerics.Tensors.xml",
+        "lib/netstandard2.0/System.Numerics.Tensors.dll",
+        "lib/netstandard2.0/System.Numerics.Tensors.xml",
+        "system.numerics.tensors.9.0.4.nupkg.sha512",
+        "system.numerics.tensors.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "CsvHelper >= 33.1.0"
+      "CsvHelper >= 33.1.0",
+      "Microsoft.Data.Analysis >= 0.23.0"
     ]
   },
   "packageFolders": {
@@ -98,6 +235,10 @@
           "CsvHelper": {
             "target": "Package",
             "version": "[33.1.0, )"
+          },
+          "Microsoft.Data.Analysis": {
+            "target": "Package",
+            "version": "[0.23.0, )"
           }
         },
         "imports": [

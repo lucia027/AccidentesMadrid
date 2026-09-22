@@ -63,4 +63,21 @@ public record Accidente {
 
     [Name("positiva_alcohol")]
     public bool PositivoAlcohol { get; init; }
+    
+    public override string ToString() {
+        return $"Expediente: {NumeroExpediente} | " +
+               $"Fecha: {Fecha:dd/MM/yyyy} {Hora:HH:mm} | " +
+               $"Dirección: {Localizacion}, {NumeroCalle?.ToString() ?? "S/N"} | " +
+               $"Distrito: {Distrito} ({CodigoDistrito}) | " +
+               $"Accidente: {TipoDeAccidente} | " +
+               $"Meteorología: {EstadoMeteorologico} | " +
+               $"Vehículo: {TipoVehiculo} | " +
+               $"Persona: {TipoPersona} | " +
+               $"Edad: {RangoEdad} | " +
+               $"Sexo: {Sexo} | " +
+               $"Lesividad: {CodigoLesividad} - {DescripcionLesividad} | " +
+               $"Coordenadas: ({CoordenadaXutm}, {CoordenadaYutm}) | " +
+               $"Droga: {(PositivoDroga ? "Sí" : "No")} | " +
+               $"Alcohol: {(PositivoAlcohol ? "Sí" : "No")}";
+    }
 }
