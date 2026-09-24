@@ -1,0 +1,9 @@
+﻿services:
+  accidentesmadrid:
+    build:
+      context: ./AccidentesMadrid
+      dockerfile: Dockerfile
+
+    container_name: accidentes-madrid
+
+    restart: "no"
