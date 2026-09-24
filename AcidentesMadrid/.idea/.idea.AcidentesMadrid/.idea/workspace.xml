@@ -5,55 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50fa6b50-aa23-4d29-8bf8-22b01c054e3a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AccidentesMadrid/Infrastructure/DependenciesProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccidentesMadrid/Infrastructure/Interfaces/IScopedService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccidentesMadrid/Infrastructure/Interfaces/ISingletonService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccidentesMadrid/Infrastructure/Interfaces/ITransientService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccidentesMadrid/obj/Debug/net10.0/AcidentesMadrid.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccidentesMadrid/obj/Debug/net10.0/AcidentesMadrid.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccidentesMadrid/obj/Debug/net10.0/AcidentesMadrid.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccidentesMadrid/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccidentesMadrid/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccidentesMadrid/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccidentesMadrid/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AcidentesMadrid/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AcidentesMadrid/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AcidentesMadrid/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AcidentesMadrid/.idea/material_theme_project_new.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AcidentesMadrid/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AcidentesMadrid.slnx" beforeDir="false" afterPath="$PROJECT_DIR$/AccidentesMadrid.slnx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AcidentesMadrid/AcidentesMadrid.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AccidentesMadrid/AccidentesMadrid.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AcidentesMadrid/Config/Config.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccidentesMadrid/Config/Config.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AcidentesMadrid/Data/300228-1-accidentes-trafico-detalle-csv.csv" beforeDir="false" afterPath="$PROJECT_DIR$/AccidentesMadrid/Data/300228-1-accidentes-trafico-detalle-csv.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AcidentesMadrid/Data/300228-2-accidentes-trafico-detalle-csv.csv" beforeDir="false" afterPath="$PROJECT_DIR$/AccidentesMadrid/Data/300228-2-accidentes-trafico-detalle-csv.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AcidentesMadrid/Data/300228-34-accidentes-trafico-detalle.csv" beforeDir="false" afterPath="$PROJECT_DIR$/AccidentesMadrid/Data/300228-34-accidentes-trafico-detalle.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AcidentesMadrid/Enum/CodigoLesividad.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccidentesMadrid/Enum/CodigoLesividad.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AcidentesMadrid/Enum/Sexo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccidentesMadrid/Enum/Sexo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AcidentesMadrid/Enum/TipoAccidente.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccidentesMadrid/Enum/TipoAccidente.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AcidentesMadrid/Mapper/AccidenteMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccidentesMadrid/Mapper/AccidenteMapper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AcidentesMadrid/Mapper/DataFrameMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccidentesMadrid/Mapper/DataFrameMapper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AcidentesMadrid/Models/Accidente.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccidentesMadrid/Models/Accidente.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AcidentesMadrid/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccidentesMadrid/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AcidentesMadrid/Repository/AccidenteRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccidentesMadrid/Repository/AccidenteRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AcidentesMadrid/Repository/Common/IRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccidentesMadrid/Repository/Common/IRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AcidentesMadrid/Repository/IAccidentesRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccidentesMadrid/Repository/IAccidentesRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AcidentesMadrid/Service/AccidentesServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccidentesMadrid/Service/AccidentesServices.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AcidentesMadrid/Service/IAccidenteService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccidentesMadrid/Service/IAccidenteService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AcidentesMadrid/obj/AcidentesMadrid.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/AccidentesMadrid/obj/AcidentesMadrid.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AcidentesMadrid/obj/AcidentesMadrid.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/AccidentesMadrid/obj/AcidentesMadrid.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AcidentesMadrid/obj/AcidentesMadrid.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/AccidentesMadrid/obj/AcidentesMadrid.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AcidentesMadrid/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccidentesMadrid/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AcidentesMadrid/obj/Debug/net10.0/AcidentesMadrid.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccidentesMadrid/obj/Debug/net10.0/AcidentesMadrid.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AcidentesMadrid/obj/Debug/net10.0/AcidentesMadrid.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AcidentesMadrid/obj/Debug/net10.0/AcidentesMadrid.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/AccidentesMadrid/obj/Debug/net10.0/AcidentesMadrid.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AcidentesMadrid/obj/Debug/net10.0/AcidentesMadrid.GlobalUsings.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccidentesMadrid/obj/Debug/net10.0/AcidentesMadrid.GlobalUsings.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AcidentesMadrid/obj/Debug/net10.0/AcidentesMadrid.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AcidentesMadrid/obj/Debug/net10.0/AcidentesMadrid.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AcidentesMadrid/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/AccidentesMadrid/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AcidentesMadrid/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AcidentesMadrid/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AcidentesMadrid/obj/rider.project.model.nuget.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AcidentesMadrid/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AcidentesMadrid/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AcidentesMadrid/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
