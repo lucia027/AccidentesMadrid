@@ -65,19 +65,19 @@ public record Accidente {
     public bool PositivoAlcohol { get; init; }
     
     public override string ToString() {
-        return $"Expediente: {NumeroExpediente} | " +
-               $"Fecha: {Fecha:dd/MM/yyyy} {Hora:HH:mm} | " +
-               $"Dirección: {Localizacion}, {NumeroCalle?.ToString() ?? "S/N"} | " +
-               $"Distrito: {Distrito} ({CodigoDistrito}) | " +
-               $"Accidente: {TipoDeAccidente} | " +
-               $"Meteorología: {EstadoMeteorologico} | " +
-               $"Vehículo: {TipoVehiculo} | " +
-               $"Persona: {TipoPersona} | " +
-               $"Edad: {RangoEdad} | " +
-               $"Sexo: {Sexo} | " +
-               $"Lesividad: {CodigoLesividad} - {DescripcionLesividad} | " +
-               $"Coordenadas: ({CoordenadaXutm}, {CoordenadaYutm}) | " +
-               $"Droga: {(PositivoDroga ? "Sí" : "No")} | " +
-               $"Alcohol: {(PositivoAlcohol ? "Sí" : "No")}";
+        return
+            $"----------------------------------------\n" +
+            $"Expediente: {NumeroExpediente}\n" +
+            $"Fecha: {Fecha:dd/MM/yyyy} - Hora: {Hora:HH:mm}\n" +
+            $"Dirección: {Localizacion}, {NumeroCalle?.ToString() ?? "S/N"}\n" +
+            $"Distrito: {Distrito} ({CodigoDistrito})\n" +
+            $"Tipo de accidente: {TipoDeAccidente}\n" +
+            $"Meteorología: {EstadoMeteorologico}\n" +
+            $"Vehículo: {TipoVehiculo}\n" +
+            $"Persona: {TipoPersona} - Edad: {RangoEdad} - Sexo: {Sexo}\n" +
+            $"Lesividad: {CodigoLesividad} - {DescripcionLesividad}\n" +
+            $"Droga: {(PositivoDroga ? "Sí" : "No")} - Alcohol: {(PositivoAlcohol ? "Sí" : "No")}\n" +
+            $"Coordenadas: ({CoordenadaXutm}, {CoordenadaYutm})\n" +
+            $"----------------------------------------";
     }
 }

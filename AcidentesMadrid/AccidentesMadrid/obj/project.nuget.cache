@@ -1,18 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "Y+eOCpeGp3M=",
+  "dgSpecHash": "Z7+rDFXhTVk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lucia\\Desktop\\Programming\\Git-Repository\\AccidentesMadrid\\AcidentesMadrid\\AccidentesMadrid\\AccidentesMadrid.csproj",
+  "projectFilePath": "C:\\Users\\Lu\\Desktop\\Git-Repository\\AccidentesMadrid\\AcidentesMadrid\\AccidentesMadrid\\AccidentesMadrid.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Lucia\\.nuget\\packages\\apache.arrow\\14.0.2\\apache.arrow.14.0.2.nupkg.sha512",
-    "C:\\Users\\Lucia\\.nuget\\packages\\csvhelper\\33.1.0\\csvhelper.33.1.0.nupkg.sha512",
-    "C:\\Users\\Lucia\\.nuget\\packages\\microsoft.data.analysis\\0.23.0\\microsoft.data.analysis.0.23.0.nupkg.sha512",
-    "C:\\Users\\Lucia\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.12\\microsoft.extensions.dependencyinjection.10.0.12.nupkg.sha512",
-    "C:\\Users\\Lucia\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.12\\microsoft.extensions.dependencyinjection.abstractions.10.0.12.nupkg.sha512",
-    "C:\\Users\\Lucia\\.nuget\\packages\\microsoft.extensions.dependencymodel\\10.0.0\\microsoft.extensions.dependencymodel.10.0.0.nupkg.sha512",
-    "C:\\Users\\Lucia\\.nuget\\packages\\microsoft.ml.dataview\\5.0.0\\microsoft.ml.dataview.5.0.0.nupkg.sha512",
-    "C:\\Users\\Lucia\\.nuget\\packages\\scrutor\\7.0.0\\scrutor.7.0.0.nupkg.sha512",
-    "C:\\Users\\Lucia\\.nuget\\packages\\system.numerics.tensors\\9.0.4\\system.numerics.tensors.9.0.4.nupkg.sha512"
+    "C:\\Users\\Lu\\.nuget\\packages\\apache.arrow\\14.0.2\\apache.arrow.14.0.2.nupkg.sha512",
+    "C:\\Users\\Lu\\.nuget\\packages\\csvhelper\\33.1.0\\csvhelper.33.1.0.nupkg.sha512",
+    "C:\\Users\\Lu\\.nuget\\packages\\microsoft.data.analysis\\0.23.0\\microsoft.data.analysis.0.23.0.nupkg.sha512",
+    "C:\\Users\\Lu\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.12\\microsoft.extensions.dependencyinjection.10.0.12.nupkg.sha512",
+    "C:\\Users\\Lu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.12\\microsoft.extensions.dependencyinjection.abstractions.10.0.12.nupkg.sha512",
+    "C:\\Users\\Lu\\.nuget\\packages\\microsoft.extensions.dependencymodel\\10.0.0\\microsoft.extensions.dependencymodel.10.0.0.nupkg.sha512",
+    "C:\\Users\\Lu\\.nuget\\packages\\microsoft.ml.dataview\\5.0.0\\microsoft.ml.dataview.5.0.0.nupkg.sha512",
+    "C:\\Users\\Lu\\.nuget\\packages\\scrutor\\7.0.0\\scrutor.7.0.0.nupkg.sha512",
+    "C:\\Users\\Lu\\.nuget\\packages\\system.numerics.tensors\\9.0.4\\system.numerics.tensors.9.0.4.nupkg.sha512"
   ],
   "logs": []
 }
